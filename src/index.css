@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.centered-button {
+  @media (max-width: 640px) {
+    left: 45%;
+  }
+}
+
+.ultra-cornered-card {
+  border-bottom-right-radius: 100px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
